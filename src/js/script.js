@@ -8,6 +8,9 @@
     containerOf: {
       booksList: '.books-list',
     },
+    book: {
+      image: '.book__image',
+    },
   };
 
   const templates = {
@@ -34,4 +37,9 @@
     }
   }
   render();
+
+  const favoriteBooks = [];
+
+  function initActions() {}
+  initActions();
 }
